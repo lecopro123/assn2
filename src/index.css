@@ -1,0 +1,24 @@
+table{
+    font-family: arial,sans-serif; 
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th{
+    border: 1px solid #ccc;
+    padding:8px;
+}
+th{
+    text-transform:capitalize;
+    font-weight: bold;
+}
+td:nth-child(2),td:nth-child(4),td:nth-child(6),td:nth-child(8),td:nth-child(12),td:nth-child(13),td:nth-child(14)
+{
+  background-color: #dddddd;
+}
+th:nth-child(2),th:nth-child(4),th:nth-child(6),th:nth-child(8),th:nth-child(12),th:nth-child(13),th:nth-child(14)
+{
+  background-color: #dddddd;
+}
+.some1{
+    background-color: #dddddd;
+}
